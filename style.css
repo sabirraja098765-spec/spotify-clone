@@ -1,0 +1,224 @@
+*{
+    background-color: black;
+    margin: 0;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+   /* main navbar */
+
+.navbar{
+    height: 4rem;
+    padding: 0.3rem 1rem 0 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navbar img{
+    height: 2rem;
+}
+
+.navbar a{
+    display: flex;
+}
+
+#home-logo:hover{
+    opacity: 1;
+    border-radius: 50%;
+    transform:scale(1.05) ;
+}
+#home-logo{
+    height: 3rem;
+    width: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:50% ;
+    background-color: rgb(37, 37, 37);
+    color: white;
+    opacity: 0.8;
+    margin-left: 10px;
+    position: relative;
+    left: 0.5rem;
+}
+
+#home-icon-hover{
+    position: absolute;
+    left: 3.75rem;
+    top: 4.5rem;
+}
+
+#search-icon{
+    position: relative;
+    opacity: 0.8;
+}
+
+.search-icon-hover{
+    color: white;
+    background-color: rgb(37, 37, 37);
+    width: 4rem;
+    height: 1.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    position: absolute;
+    left: 0rem;
+    top: 3.5rem;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.search-hover-type:hover .search-icon-hover{
+    opacity: 1;
+    transition: 0.8s ease;
+}
+
+#browse{
+    position: absolute;
+    left: 28rem;
+    top:3rem ;
+}
+
+#search-icon:hover{
+    opacity: 1;
+    transform: scale(1.05);
+}
+
+#browse-icon{
+    opacity: 0.8;
+}
+
+#browse-icon:hover{
+    opacity: 1;
+}
+
+.search-bar{
+    height: 3rem;
+    width: 30rem;
+    padding: 0 10px 0 10px;
+    background-color: rgb(37, 37, 37);
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    opacity: 0.8;
+    position: relative;
+    left: 1rem;
+}
+
+
+.search-bar:hover{
+    opacity: 1;
+    border: 0.5px solid rgb(72, 70, 70);
+    transition: 0.5s ease;
+}
+
+.search-bar:focus{
+    border: 2.5px solid white;
+}
+
+.search-bar input{
+    height: 2.5rem;
+    width: 23rem;
+    border: none;
+    outline: none;
+    background-color: rgb(37, 37, 37);
+    font-size: large;
+    color: white;
+}
+.search-bar input::placeholder{
+    color: rgb(173, 170, 170);
+}
+
+.shortcut-key{
+    color: rgb(168, 163, 163);
+    display: flex;
+    background-color: rgb(37, 37, 37);
+    position: relative;
+    right: 6.9rem;
+    opacity: 0;
+}
+
+.shortcut-key span{
+    border: 1px solid;
+    width: 2.5rem;
+    height: 1.5rem;
+    margin: 2px;
+    background-color: rgb(37, 37, 37);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.search-bar:hover .shortcut-key{
+    opacity: 1;
+    transition: 0.5s ease;
+}
+
+.nav-items{
+    display: flex;
+    font-family: sans-serif;
+    font-weight: 550;
+    width: 20rem;
+    justify-content: center;
+    position: relative;
+    right: -1rem;
+    margin-left: 2.5rem;
+}
+
+.nav-items a{
+    margin: 0.4rem;
+    color: rgb(168, 163, 163);
+}
+
+.nav-items a:hover{
+    color: rgb(255, 255, 255);
+    transform: scale(1.03);
+}
+
+.install-button{
+    color: rgb(168, 163, 163);
+    width: 8rem;
+    font-weight: 600;   
+    position: relative;
+    right: -3rem;
+}
+
+.install-button:hover{
+    color: rgb(255, 255, 255);
+    transform: scale(1.05);
+}
+
+.login-button{
+    background-color: white;
+    color: black;
+    height: 3rem;
+    width: 6.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    font-weight: 600;
+}
+
+.login-button:hover{
+    transform: scale(1.03);
+}
+
+#signup{
+    color: rgb(168, 163, 163);
+    width: 5rem;
+    position: relative;
+    right: 1.5rem;
+}
+
+#signup:hover{
+    transform: scale(1.05);
+    color: rgb(255, 255, 255);
+}
+
