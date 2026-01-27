@@ -1,8 +1,9 @@
-*{
+body{
     background-color: black;
     margin: 0;
     text-decoration: none;
     font-family: sans-serif;
+    overflow:hidden;
 }
 
    /* main navbar */
@@ -22,6 +23,10 @@
 
 .navbar a{
     display: flex;
+    text-decoration: none;
+    /* width: 7rem; */
+
+    /* font-family: sans-serif; */
 }
 
 #home-logo:hover{
@@ -189,6 +194,11 @@
     right: -3rem;
 }
 
+.install-button i{
+    display: flex;
+    align-items: center;
+}
+
 .install-button:hover{
     color: rgb(255, 255, 255);
     transform: scale(1.05);
@@ -214,7 +224,7 @@
     color: rgb(168, 163, 163);
     width: 5rem;
     position: relative;
-    right: 1.5rem;
+    right: 0.8rem;
 }
 
 #signup:hover{
@@ -222,3 +232,42 @@
     color: rgb(255, 255, 255);
 }
 
+/* section */
+
+.hero_section{
+    height: 75vh;
+    width: 100%;
+    padding: 0 0.8rem 0 0.8rem;
+    display: flex;
+    box-sizing: border-box;
+    gap: 0.7rem;
+    /* background-color: pink; */
+
+}
+
+.hero_section1{
+    height: 75vh;
+    width: 35%;
+    border-radius: 10px;
+    background-color: rgb(24, 23, 23);
+
+}
+
+.hero_section2{
+    width: 65%;
+    height: 75vh;
+    background-color: rgb(36, 36, 36);
+    border-radius: 10px;
+}
+
+/* footer */
+
+.footer-section{
+    height: 10rem;
+    /* width: 100%; */
+    margin: 0.8rem 0.8rem 0 0.8rem;
+    border-radius: 10px;
+    /* display: flex; */
+    box-sizing: border-box;
+    background-color: pink;
+}
