@@ -24,9 +24,7 @@ body{
 .navbar a{
     display: flex;
     text-decoration: none;
-    /* width: 7rem; */
-
-    /* font-family: sans-serif; */
+    
 }
 
 #home-logo:hover{
@@ -102,7 +100,7 @@ body{
 
 .search-bar{
     height: 3rem;
-    width: 30rem;
+    width: 28rem;
     padding: 0 10px 0 10px;
     background-color: rgb(37, 37, 37);
     border-radius: 25px;
@@ -120,6 +118,7 @@ body{
     opacity: 1;
     border: 0.5px solid rgb(72, 70, 70);
     transition: 0.5s ease;
+    /* transform: scale(1.05); */
 }
 
 .search-bar:focus{
@@ -188,7 +187,7 @@ body{
 
 .install-button{
     color: rgb(168, 163, 163);
-    width: 8rem;
+    width: 14rem;
     font-weight: 600;   
     position: relative;
     right: -3rem;
@@ -218,6 +217,7 @@ body{
 
 .login-button:hover{
     transform: scale(1.03);
+    opacity: 0.9;
 }
 
 #signup{
@@ -235,7 +235,7 @@ body{
 /* section */
 
 .hero_section{
-    height: 75vh;
+    height: 76vh;
     /* width: 100%; */
     padding: 0 0.5rem 0 0.5rem;
     display: flex;
@@ -245,7 +245,7 @@ body{
 }
 
 .hero_section1{
-    height: 75vh;
+    height: 76vh;
     width: 32%;
     border-radius: 10px;
     background-color: rgb(24, 23, 23);
@@ -254,7 +254,7 @@ body{
 
 .hero_section2{
     width: 68%;
-    height: 75vh;
+    height: 76vh;
     background-color: rgb(36, 36, 36);
     border-radius: 10px;
 }
@@ -263,7 +263,7 @@ body{
 
 .footer-section{
     height: 5rem;
-    margin: 0.5rem 0.7rem 0 0.7rem;
+    margin: 0.5rem 0.6rem 0 0.6rem;
     border-radius: 10px;
     /* display: flex; */
     box-sizing: border-box;
@@ -331,8 +331,6 @@ body{
     background: transparent;
 
 }
-
-
 
 .create-playlist-item{
     height: 6rem;
@@ -446,9 +444,11 @@ body{
     }
     .hero_section1{
         height: 83vh;
+        width: 25%;
     }
     .hero_section2{
         height: 83vh;
+        width: 75%;
     }
     .footer-section{
         height: 6rem;
