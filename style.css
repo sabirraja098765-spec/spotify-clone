@@ -262,7 +262,7 @@ body{
 /* footer */
 
 .footer-section{
-    height: 10rem;
+    height: 5rem;
     /* width: 100%; */
     margin: 0.8rem 0.8rem 0 0.8rem;
     border-radius: 10px;
@@ -353,10 +353,16 @@ body{
     justify-content: center;
     align-items: center;
     padding: 0.2rem;
+    cursor: pointer;
 }
 
 .create-playlist-badge span{
     font-weight: 550;
+}
+
+.create-playlist-badge:hover{
+    transform: scale(1.05);
+    opacity: 0.9;
 }
 
 .create-playlist-badge2{
@@ -372,14 +378,20 @@ body{
     padding: 0.5rem;
     margin: 2rem 2rem 1rem 1rem;
     height: 4rem;
+    cursor: pointer;
     /* background-color: pink; */
 
 }
 
 .library-aboutus span{
-    margin: 0.3rem;
+    margin: 0.5rem;
     color: rgb(148, 145, 145);
     font-size: small;
+}
+
+.library-aboutus1{
+    display: flex;
+    align-items: center;
 }
 
 .library-footer-section{
@@ -393,6 +405,10 @@ body{
     font-size: small;
 }
 
+.cookies-text{
+    margin: 0.3rem;
+}
+
 .cookies:hover{
     text-decoration: underline;
 }
@@ -401,12 +417,12 @@ body{
     width: 7rem;
     height: 2rem;
     border-radius: 20px;
-    border: 1px solid white;
+    border: 0.5px solid rgb(136, 134, 134);
     display:flex;
     align-items: center;
     justify-content: center;
-
-
+    margin: 2.5rem 2rem 0.1rem 2rem;
+    cursor: pointer;
 }
 
 .library-footer-section2 button{
@@ -414,4 +430,10 @@ body{
     border: none;
     font-weight: 700;
     color: white;
+    cursor: pointer;
+}
+
+.library-footer-section2:hover{
+    transform: scale(1.05);
+    border: 1px solid white;
 }
