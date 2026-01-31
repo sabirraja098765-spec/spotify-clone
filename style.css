@@ -236,7 +236,7 @@ body{
 
 .hero_section{
     height: 75vh;
-    width: 100%;
+    /* width: 100%; */
     padding: 0 0.5rem 0 0.5rem;
     display: flex;
     box-sizing: border-box;
@@ -245,7 +245,7 @@ body{
 }
 
 .hero_section1{
-    height: 76vh;
+    height: 75vh;
     width: 32%;
     border-radius: 10px;
     background-color: rgb(24, 23, 23);
@@ -254,7 +254,7 @@ body{
 
 .hero_section2{
     width: 68%;
-    height: 76vh;
+    height: 75vh;
     background-color: rgb(36, 36, 36);
     border-radius: 10px;
 }
@@ -263,8 +263,7 @@ body{
 
 .footer-section{
     height: 5rem;
-    /* width: 100%; */
-    margin: 0.8rem 0.8rem 0 0.8rem;
+    margin: 0.5rem 0.7rem 0 0.7rem;
     border-radius: 10px;
     /* display: flex; */
     box-sizing: border-box;
@@ -436,4 +435,25 @@ body{
 .library-footer-section2:hover{
     transform: scale(1.05);
     border: 1px solid white;
+}
+
+@media(min-height:600px){
+    .create-playlist{
+        height: 20rem;
+    }
+    .hero_section{
+        height: 83vh;
+    }
+    .hero_section1{
+        height: 83vh;
+    }
+    .hero_section2{
+        height: 83vh;
+    }
+    .footer-section{
+        height: 6rem;
+    }
+    .library-footer-section{
+        margin-top: 12rem;
+    }
 }
