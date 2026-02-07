@@ -472,6 +472,11 @@ body {
     /* height: vh; */
     background-color: rgb(36, 36, 36);
     border-radius: 10px;
+    overflow-x: auto;
+}
+
+.hero_section2::-webkit-scrollbar{
+    width: 0;
 }
 
 .hero_section2 a {
@@ -497,7 +502,6 @@ body {
     padding-left: 2.5rem;
     position: relative;
     top: -0.75rem;
-    
 }
 
 .trending-songs-items {
@@ -567,4 +571,25 @@ body {
     .hero_section2{
         width: 75%;
     }
+}
+
+.trending-text{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.trending-text a{
+    margin: 1rem 3rem;
+    font-weight: 750;
+    font-size: 20px;
+}
+
+.section3{
+    position: relative;
+    top: -4rem;
+}
+
+.trending-songs-images2{
+    border-radius: 50%;
 }
