@@ -1,14 +1,14 @@
-body{
+body {
     background-color: black;
     margin: 0;
     text-decoration: none;
     font-family: sans-serif;
-    overflow:hidden;
+    overflow: hidden;
 }
 
-   /* main navbar */
+/* main navbar */
 
-.navbar{
+.navbar {
     height: 4rem;
     padding: 0.3rem 1rem 0 1rem;
     display: flex;
@@ -17,28 +17,29 @@ body{
     justify-content: space-evenly;
 }
 
-.navbar img{
+.navbar img {
     height: 2rem;
 }
 
-.navbar a{
+.navbar a {
     display: flex;
     text-decoration: none;
-    
+
 }
 
-#home-logo:hover{
+#home-logo:hover {
     opacity: 1;
     border-radius: 50%;
-    transform:scale(1.05) ;
+    transform: scale(1.05);
 }
-#home-logo{
+
+#home-logo {
     height: 3rem;
     width: 3rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius:50% ;
+    border-radius: 50%;
     background-color: rgb(37, 37, 37);
     color: white;
     opacity: 0.8;
@@ -47,18 +48,18 @@ body{
     left: 0.5rem;
 }
 
-#home-icon-hover{
+#home-icon-hover {
     position: absolute;
     left: 3.75rem;
     top: 4.5rem;
 }
 
-#search-icon{
+#search-icon {
     position: relative;
     opacity: 0.8;
 }
 
-.search-icon-hover{
+.search-icon-hover {
     color: white;
     background-color: rgb(37, 37, 37);
     width: 4rem;
@@ -74,31 +75,31 @@ body{
     pointer-events: none;
 }
 
-.search-hover-type:hover .search-icon-hover{
+.search-hover-type:hover .search-icon-hover {
     opacity: 1;
     transition: 0.8s ease;
 }
 
-#browse{
+#browse {
     position: absolute;
     left: 28rem;
-    top:3rem ;
+    top: 3rem;
 }
 
-#search-icon:hover{
+#search-icon:hover {
     opacity: 1;
     transform: scale(1.05);
 }
 
-#browse-icon{
+#browse-icon {
     opacity: 0.8;
 }
 
-#browse-icon:hover{
+#browse-icon:hover {
     opacity: 1;
 }
 
-.search-bar{
+.search-bar {
     height: 3rem;
     width: 28rem;
     padding: 0 10px 0 10px;
@@ -114,18 +115,18 @@ body{
 }
 
 
-.search-bar:hover{
+.search-bar:hover {
     opacity: 1;
     border: 0.5px solid rgb(72, 70, 70);
     transition: 0.5s ease;
     /* transform: scale(1.05); */
 }
 
-.search-bar:focus{
+.search-bar:focus {
     border: 2.5px solid white;
 }
 
-.search-bar input{
+.search-bar input {
     height: 2.5rem;
     width: 23rem;
     border: none;
@@ -134,11 +135,12 @@ body{
     font-size: large;
     color: white;
 }
-.search-bar input::placeholder{
+
+.search-bar input::placeholder {
     color: rgb(173, 170, 170);
 }
 
-.shortcut-key{
+.shortcut-key {
     color: rgb(168, 163, 163);
     display: flex;
     background-color: rgb(37, 37, 37);
@@ -147,7 +149,7 @@ body{
     opacity: 0;
 }
 
-.shortcut-key span{
+.shortcut-key span {
     border: 1px solid;
     width: 2.5rem;
     height: 1.5rem;
@@ -159,12 +161,12 @@ body{
     border-radius: 5px;
 }
 
-.search-bar:hover .shortcut-key{
+.search-bar:hover .shortcut-key {
     opacity: 1;
     transition: 0.5s ease;
 }
 
-.nav-items{
+.nav-items {
     display: flex;
     font-family: sans-serif;
     font-weight: 550;
@@ -175,35 +177,35 @@ body{
     margin-left: 2.5rem;
 }
 
-.nav-items a{
+.nav-items a {
     margin: 0.4rem;
     color: rgb(168, 163, 163);
 }
 
-.nav-items a:hover{
+.nav-items a:hover {
     color: rgb(255, 255, 255);
     transform: scale(1.03);
 }
 
-.install-button{
+.install-button {
     color: rgb(168, 163, 163);
     width: 14rem;
-    font-weight: 600;   
+    font-weight: 600;
     position: relative;
     right: -3rem;
 }
 
-.install-button i{
+.install-button i {
     display: flex;
     align-items: center;
 }
 
-.install-button:hover{
+.install-button:hover {
     color: rgb(255, 255, 255);
     transform: scale(1.05);
 }
 
-.login-button{
+.login-button {
     background-color: white;
     color: black;
     height: 3rem;
@@ -215,36 +217,42 @@ body{
     font-weight: 600;
 }
 
-.login-button:hover{
+.login-button:hover {
     transform: scale(1.03);
     opacity: 0.9;
 }
 
-#signup{
+#signup {
     color: rgb(168, 163, 163);
     width: 5rem;
     position: relative;
     right: 0.8rem;
 }
 
-#signup:hover{
+#signup:hover {
     transform: scale(1.05);
     color: rgb(255, 255, 255);
 }
 
+.login-signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.1rem;
+}
+
 /* section */
 
-.hero_section{
+.hero_section {
     height: 76vh;
     /* width: 100%; */
     padding: 0 0.5rem 0 0.5rem;
     display: flex;
     box-sizing: border-box;
     gap: 0.5rem;
-
 }
 
-.hero_section1{
+.hero_section1 {
     height: 76vh;
     width: 32%;
     border-radius: 10px;
@@ -252,16 +260,10 @@ body{
 
 }
 
-.hero_section2{
-    width: 68%;
-    height: 76vh;
-    background-color: rgb(36, 36, 36);
-    border-radius: 10px;
-}
 
 /* footer */
 
-.footer-section{
+.footer-section {
     height: 5rem;
     margin: 0.5rem 0.6rem 0 0.6rem;
     border-radius: 10px;
@@ -271,7 +273,7 @@ body{
 }
 
 
-.library{
+.library {
     height: 1.5rem;
     display: flex;
     justify-content: center;
@@ -281,7 +283,7 @@ body{
     padding: 1.5rem 1.1rem;
 }
 
-.library button{
+.library button {
     background-color: rgb(36, 36, 36);
     color: white;
     height: 2.1rem;
@@ -290,7 +292,7 @@ body{
     border-radius: 20px;
     font-weight: 700;
     padding: 0.8rem;
-    text-align:center;
+    text-align: center;
     cursor: pointer;
     display: flex;
     justify-content: center;
@@ -298,13 +300,13 @@ body{
     opacity: 0.8;
 }
 
-.library button:hover{
+.library button:hover {
     opacity: 1;
     transition: 0.2s ease;
 }
 
 
-.create-playlist{
+.create-playlist {
     height: 9rem;
     /* background-color: pink; */
     overflow-y: auto;
@@ -312,27 +314,27 @@ body{
 
 }
 
-.create-playlist::-webkit-scrollbar{
+.create-playlist::-webkit-scrollbar {
     width: 0px;
-    
+
 }
 
-.create-playlist:hover::-webkit-scrollbar{
+.create-playlist:hover::-webkit-scrollbar {
     width: 10px;
 }
 
-.create-playlist::-webkit-scrollbar-thumb{
+.create-playlist::-webkit-scrollbar-thumb {
     background: #5a5959;
-    border-radius:2px ;
-    transition:5s ease;
+    border-radius: 2px;
+    transition: 5s ease;
 }
 
-.create-playlist:hover::-webkit-scrollbar-track{
+.create-playlist:hover::-webkit-scrollbar-track {
     background: transparent;
 
 }
 
-.create-playlist-item{
+.create-playlist-item {
     height: 6rem;
     border-radius: 5px;
     background-color: rgb(36, 36, 36);
@@ -340,7 +342,7 @@ body{
     padding: 1rem;
 }
 
-.create-playlist-badge{
+.create-playlist-badge {
     height: 1.5rem;
     width: 8rem;
     background-color: white;
@@ -353,25 +355,25 @@ body{
     cursor: pointer;
 }
 
-.create-playlist-badge span{
+.create-playlist-badge span {
     font-weight: 550;
 }
 
-.create-playlist-badge:hover{
+.create-playlist-badge:hover {
     transform: scale(1.05);
     opacity: 0.9;
 }
 
-.create-playlist-badge2{
+.create-playlist-badge2 {
     width: 9.5rem;
-    
+
 }
 
-.create-playlist-badge2 span{
+.create-playlist-badge2 span {
     font-weight: 550;
 }
 
-.library-aboutus{
+.library-aboutus {
     padding: 0.5rem;
     margin: 2rem 2rem 1rem 1rem;
     height: 4rem;
@@ -380,49 +382,49 @@ body{
 
 }
 
-.library-aboutus span{
+.library-aboutus span {
     margin: 0.5rem;
     color: rgb(148, 145, 145);
     font-size: small;
 }
 
-.library-aboutus1{
+.library-aboutus1 {
     display: flex;
     align-items: center;
 }
 
-.library-footer-section{
+.library-footer-section {
     height: 11rem;
     /* background-color: pink; */
 }
 
-.cookies{
+.cookies {
     color: white;
     text-decoration: none;
     font-size: small;
 }
 
-.cookies-text{
+.cookies-text {
     margin: 0.3rem;
 }
 
-.cookies:hover{
+.cookies:hover {
     text-decoration: underline;
 }
 
-.library-footer-section2{
+.library-footer-section2 {
     width: 7rem;
     height: 2rem;
     border-radius: 20px;
     border: 0.5px solid rgb(136, 134, 134);
-    display:flex;
+    display: flex;
     align-items: center;
     justify-content: center;
     margin: 2.5rem 2rem 0.1rem 2rem;
     cursor: pointer;
 }
 
-.library-footer-section2 button{
+.library-footer-section2 button {
     background: none;
     border: none;
     font-weight: 700;
@@ -430,30 +432,139 @@ body{
     cursor: pointer;
 }
 
-.library-footer-section2:hover{
+.library-footer-section2:hover {
     transform: scale(1.05);
     border: 1px solid white;
 }
 
-@media(min-height:600px){
-    .create-playlist{
+@media(min-height:600px) {
+    .create-playlist {
         height: 20rem;
     }
-    .hero_section{
+
+    .hero_section {
         height: 83vh;
     }
-    .hero_section1{
+
+    .hero_section1 {
         height: 83vh;
         width: 25%;
     }
-    .hero_section2{
+
+    .hero_section2 {
         height: 83vh;
         width: 75%;
     }
-    .footer-section{
+
+    .footer-section {
         height: 6rem;
     }
-    .library-footer-section{
+
+    .library-footer-section {
         margin-top: 5rem;
+    }
+}
+
+/* hero  section2  */
+
+.hero_section2 {
+    width: 67.5%;
+    /* height: vh; */
+    background-color: rgb(36, 36, 36);
+    border-radius: 10px;
+}
+
+.hero_section2 a {
+    color: white;
+    text-decoration: none;
+}
+
+.section2 h2 {
+    padding-left: 2.5rem;
+}
+
+.hero_section2 a:hover {
+    text-decoration: underline;
+}
+
+
+
+.trending-songs-content {
+    height: 20rem;
+    /* background-color: pink; */
+    overflow-x: auto;
+    display: flex;
+    padding-left: 2.5rem;
+    position: relative;
+    top: -0.75rem;
+    
+}
+
+.trending-songs-items {
+    height: 16rem;
+    width: 10rem;
+    border-radius: 10px;
+    padding: 0.75rem;
+    cursor: pointer;
+}
+
+.trending-songs-items i{
+    position: relative;
+    top: -3rem;
+    left: 6.5rem;
+}
+.trending-songs-items:hover{
+    /* border: 2px solid; */
+    background-color:rgb(50, 50, 50);
+}
+
+.trending-songs-images{
+    height: 10rem;
+    width: 10rem;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.trending-songs-items h4{
+    position: relative;
+    top: -1rem;
+    color: white;
+}
+
+.trending-songs-items-info{
+    position: relative;
+    top: -1.75rem;
+}
+
+.trending-songs-items-info span{
+    color: rgb(147, 144, 144);
+    font-size: small;
+    font-weight: 600;
+}
+
+.trending-songs-items-info a:hover{
+    color: rgb(147, 144, 144);
+}
+
+.trendig-songs-info{
+    position: relative;
+    top: -2rem;
+}
+
+.trending-songs-items i{
+    opacity: 0;
+}
+
+.trending-songs-items:hover i{
+    opacity: 1;
+}
+
+.trending-songs-content::-webkit-scrollbar{
+    width: 0px;
+}
+
+@media (min-width:2000px){
+    .hero_section2{
+        width: 75%;
     }
 }
