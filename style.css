@@ -593,3 +593,23 @@ body {
 .trending-songs-images2{
     border-radius: 50%;
 }
+
+.section4{
+    position: relative;
+    top: -7rem;
+}
+
+.section5{
+    position: relative;
+    top: -8rem;
+}
+
+.section6{
+    position: relative;
+    top: -10rem;
+}
+
+.popular-radio-info{
+    position: relative;
+    top: 0.2rem;
+}
